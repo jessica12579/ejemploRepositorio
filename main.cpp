@@ -1,10 +1,13 @@
     #include <iostream>
+    #include <cstdlib>
+#include "Student.h"
+
+    using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "Hello, World!" << std::endl;
+    Student *pepe = new Student("3456", "34567", 'hola', 34);
 
-
-
-    return 0;
+    cout<< *pepe<<endl;
+    delete(pepe);
+    return EXIT_SUCCESS;
 }

@@ -92,12 +92,12 @@ clean: CMakeFiles/ejemploRepositorio.dir/clean
 CMakeFiles/ejemploRepositorio.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target ejemploRepositorio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target ejemploRepositorio"
 .PHONY : CMakeFiles/ejemploRepositorio.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ejemploRepositorio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ejemploRepositorio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ejemploRepositorio.dir/rule

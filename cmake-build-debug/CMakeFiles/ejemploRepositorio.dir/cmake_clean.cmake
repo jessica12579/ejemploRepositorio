@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.obj"
+  "CMakeFiles/ejemploRepositorio.dir/Student.cpp.obj"
   "CMakeFiles/ejemploRepositorio.dir/main.cpp.obj"
   "ejemploRepositorio.exe"
   "ejemploRepositorio.exe.manifest"

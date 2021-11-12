@@ -88,19 +88,49 @@ CMakeFiles/ejemploRepositorio.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemploRepositorio.dir/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\CLionProjects\ejemploRepositorio\main.cpp -o CMakeFiles\ejemploRepositorio.dir\main.cpp.s
 
+CMakeFiles/ejemploRepositorio.dir/Student.cpp.obj: CMakeFiles/ejemploRepositorio.dir/flags.make
+CMakeFiles/ejemploRepositorio.dir/Student.cpp.obj: ../Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ejemploRepositorio.dir/Student.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ejemploRepositorio.dir\Student.cpp.obj -c C:\Users\Usuario\CLionProjects\ejemploRepositorio\Student.cpp
+
+CMakeFiles/ejemploRepositorio.dir/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemploRepositorio.dir/Student.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\CLionProjects\ejemploRepositorio\Student.cpp > CMakeFiles\ejemploRepositorio.dir\Student.cpp.i
+
+CMakeFiles/ejemploRepositorio.dir/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemploRepositorio.dir/Student.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\CLionProjects\ejemploRepositorio\Student.cpp -o CMakeFiles\ejemploRepositorio.dir\Student.cpp.s
+
+CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.obj: CMakeFiles/ejemploRepositorio.dir/flags.make
+CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.obj: ../ManagmentStudents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ejemploRepositorio.dir\ManagmentStudents.cpp.obj -c C:\Users\Usuario\CLionProjects\ejemploRepositorio\ManagmentStudents.cpp
+
+CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Usuario\CLionProjects\ejemploRepositorio\ManagmentStudents.cpp > CMakeFiles\ejemploRepositorio.dir\ManagmentStudents.cpp.i
+
+CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Usuario\CLionProjects\ejemploRepositorio\ManagmentStudents.cpp -o CMakeFiles\ejemploRepositorio.dir\ManagmentStudents.cpp.s
+
 # Object files for target ejemploRepositorio
 ejemploRepositorio_OBJECTS = \
-"CMakeFiles/ejemploRepositorio.dir/main.cpp.obj"
+"CMakeFiles/ejemploRepositorio.dir/main.cpp.obj" \
+"CMakeFiles/ejemploRepositorio.dir/Student.cpp.obj" \
+"CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.obj"
 
 # External object files for target ejemploRepositorio
 ejemploRepositorio_EXTERNAL_OBJECTS =
 
 ejemploRepositorio.exe: CMakeFiles/ejemploRepositorio.dir/main.cpp.obj
+ejemploRepositorio.exe: CMakeFiles/ejemploRepositorio.dir/Student.cpp.obj
+ejemploRepositorio.exe: CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.obj
 ejemploRepositorio.exe: CMakeFiles/ejemploRepositorio.dir/build.make
 ejemploRepositorio.exe: CMakeFiles/ejemploRepositorio.dir/linklibs.rsp
 ejemploRepositorio.exe: CMakeFiles/ejemploRepositorio.dir/objects1.rsp
 ejemploRepositorio.exe: CMakeFiles/ejemploRepositorio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ejemploRepositorio.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Usuario\CLionProjects\ejemploRepositorio\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ejemploRepositorio.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ejemploRepositorio.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

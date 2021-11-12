@@ -141,6 +141,60 @@ ejemploRepositorio/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/build
 .PHONY : ejemploRepositorio/fast
 
+ManagmentStudents.obj: ManagmentStudents.cpp.obj
+
+.PHONY : ManagmentStudents.obj
+
+# target to build an object file
+ManagmentStudents.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.obj
+.PHONY : ManagmentStudents.cpp.obj
+
+ManagmentStudents.i: ManagmentStudents.cpp.i
+
+.PHONY : ManagmentStudents.i
+
+# target to preprocess a source file
+ManagmentStudents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.i
+.PHONY : ManagmentStudents.cpp.i
+
+ManagmentStudents.s: ManagmentStudents.cpp.s
+
+.PHONY : ManagmentStudents.s
+
+# target to generate assembly for a file
+ManagmentStudents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/ManagmentStudents.cpp.s
+.PHONY : ManagmentStudents.cpp.s
+
+Student.obj: Student.cpp.obj
+
+.PHONY : Student.obj
+
+# target to build an object file
+Student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/Student.cpp.obj
+.PHONY : Student.cpp.obj
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ejemploRepositorio.dir\build.make CMakeFiles/ejemploRepositorio.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +231,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ejemploRepositorio
+	@echo ... ManagmentStudents.obj
+	@echo ... ManagmentStudents.i
+	@echo ... ManagmentStudents.s
+	@echo ... Student.obj
+	@echo ... Student.i
+	@echo ... Student.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
