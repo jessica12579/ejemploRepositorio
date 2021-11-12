@@ -12,6 +12,12 @@ using namespace std;
 
 class ManagmentStudents {
 public:
+    ManagmentStudents();
+    Student* findStudent(string);
+    bool addStudent(string, string, char, short int);
+    vector<Student*> getStudents();
+
+    virtual ~ManagmentStudents();
 
 private:
     vector<Student*> students;
