@@ -1,5 +1,5 @@
 //
-// Created by Usuario on 12/11/2021.
+// Created by Jessica Aranguren on 12/11/2021.
 //
 
 #include "ManagmentStudents.h"

@@ -1,13 +1,24 @@
     #include <iostream>
     #include <cstdlib>
-#include "Student.h"
+    #include "Student.h"
+#include "ManagmentStudents.h"
 
     using namespace std;
 
-int main() {
-    Student *pepe = new Student("3456", "34567", 'hola', 34);
+void *mngStudents(){
+    ManagmentStudents *mng = new ManagmentStudents();
 
-    cout<< *pepe<<endl;
-    delete(pepe);
+    mng->addStudent("29123", "Jessica Aranguren", 'h', 19);
+    mng->addStudent("12345", "Pablito", 'z', 56);
+
+    for( Student* student : mng->getStudents()){
+        cout<<*student<<endl;
+    }
+
+    delete( mng );
+}
+
+int main() {
+   mngStudents();
     return EXIT_SUCCESS;
 }
